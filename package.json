@@ -1,0 +1,22 @@
+{
+  "name": "problem-solving-challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "merge-sort": "node merge-sort",
+    "merge-sort:dev": "nodemon merge-sort",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdallah-nour/Problem-Solving-Challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdallah-nour/Problem-Solving-Challenges/issues"
+  },
+  "homepage": "https://github.com/abdallah-nour/Problem-Solving-Challenges#readme"
+}

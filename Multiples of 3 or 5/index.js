@@ -1,3 +1,9 @@
+function solution(number) {
+  const arr = getMultiplesBelow(number, 3, 5);
+  if (arr.length === 0) return 0;
+  return arr.reduce((acc, current) => acc + current);
+}
+
 function getMultiplesBelow(top, ...arr) {
   let result = [];
   for (let index = 0; index < top; index++) {
@@ -6,3 +12,4 @@ function getMultiplesBelow(top, ...arr) {
   }
   return result;
 }
+module.exports = solution;

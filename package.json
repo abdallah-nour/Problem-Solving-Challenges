@@ -6,7 +6,7 @@
   "scripts": {
     "merge-sort": "node merge-sort",
     "merge-sort:dev": "nodemon merge-sort",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/abdallah-nour/Problem-Solving-Challenges/issues"
   },
-  "homepage": "https://github.com/abdallah-nour/Problem-Solving-Challenges#readme"
+  "homepage": "https://github.com/abdallah-nour/Problem-Solving-Challenges#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {}
 }

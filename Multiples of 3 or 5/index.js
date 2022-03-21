@@ -13,7 +13,7 @@ function getMultiplesBelow(top, ...arr) {
   return result;
 }
 
-// minmum code solution 🚀
+// minimum code solution 🚀
 
 function solution_minCode(number) {
   return number <= 0 ? 0 : [...Array(number).keys()]

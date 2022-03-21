@@ -12,4 +12,13 @@ function getMultiplesBelow(top, ...arr) {
   }
   return result;
 }
+
+// minmum code solution 🚀
+
+function solution_minCode(number) {
+  return number <= 0 ? 0 : [...Array(number).keys()]
+    .filter(value => value % 3 === 0 || value % 5 === 0)
+    .reduce((acc, current) => acc + current);
+}
+
 module.exports = solution;

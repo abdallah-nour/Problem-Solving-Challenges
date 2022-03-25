@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "merge-sort": "node merge-sort",
-    "merge-sort:dev": "nodemon merge-sort",
     "test": "jest"
   },
   "repository": {

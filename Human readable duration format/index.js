@@ -34,7 +34,7 @@ function formatDuration(seconds, durations = secondsToDurations(seconds)) {
   return !durations.length ? "now" : beautifyStringSorting(...durations);
 }
 
-// codewars solution
+// Codewars highest ranks solutions
 function formatDuration1(seconds) {
   var time = { year: 31536000, day: 86400, hour: 3600, minute: 60, second: 1 },
     res = [];
@@ -52,8 +52,7 @@ function formatDuration1(seconds) {
   return res.length > 1 ? res.join(', ').replace(/,([^,]*)$/, ' and' + '$1') : res[0]
 }
 
-// Codewars highest ranks solutions
-function formatDuration1(seconds) {
+function formatDuration2(seconds) {
   if (!seconds) return "now";
   var strout = "";
   var s = seconds % 60;
@@ -76,7 +75,7 @@ function formatDuration1(seconds) {
   return english.join(", ").replace(/,([^,]*)$/, " and$1");
 }
 
-function formatDuration2(seconds) {
+function formatDuration3(seconds) {
   if (!seconds) return "now";
   var strout = "";
   var s = seconds % 60;

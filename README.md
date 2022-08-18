@@ -22,6 +22,8 @@
 * ### [**Array Merge Sort**](https://www.codewars.com/kata/52336a4436e0b095d8000093).
 
 <!-- L6 -->
+* ### [Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667/train/javascript).
+
 * ### [**Take a Ten Minutes Walk**](https://www.codewars.com/kata/54da539698b8a2ad76000228/javascript).
 
 * ### [**Multiples of 3 or 5**](https://www.codewars.com/kata/514b92a657cdc65150000006/).
